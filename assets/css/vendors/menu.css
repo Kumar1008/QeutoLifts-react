@@ -359,7 +359,7 @@
 
 @media (width > 1200px) {
   .site-menu-main {
-    column-gap: 44px;
+    column-gap: 20px;
   }
 }
 
@@ -393,11 +393,24 @@
 }
 
 .site-menu-main .nav-link-item {
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  font-style:normal;
+  letter-spacing: normal;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+
+}
+
+.site-menu-main .nav-link-item:hover {
+  font-size: 15px;
   font-weight: 500;
   font-style: normal;
   letter-spacing: normal;
   position: relative;
+  color: #0119ff;
+   
 }
 
 .site-menu-main .nav-link-item--white {
@@ -405,7 +418,7 @@
 }
 
 .site-menu-main > .nav-item-has-children > .drop-trigger {
-  line-height: 100px;
+  line-height: 80px;
 }
 
 @media (width < 991px) {
